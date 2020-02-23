@@ -1,0 +1,140 @@
+body{
+    margin:0;
+    font-family: 'Oswald';
+}
+.half-width h1{
+    color:rgb(195, 7, 195);
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(195, 7, 195); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(195, 7, 195); }
+  }
+p{
+    color:dimgray;
+}
+h3{
+    font-size: 40px;
+    
+}
+
+.top-banner{
+    background-image:url("images/header-bg.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+
+.half-width{
+    width:30%;
+    padding:2%;
+    margin-left:10%;
+    float:left;
+}
+
+.half-width img{
+    width:100%;
+    
+}
+
+.link{
+
+    text-decoration: none;
+    color:white;
+    background-image:linear-gradient(45deg,lightSalmon,#c307c3 );
+    padding:10px 30px;
+    border-radius: 5px;
+
+}
+
+.dream-banner{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+section{
+    height:500px;
+}
+
+.prev-work{
+    height:300px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size:cover ;
+
+}
+.portfolio{
+ margin:10px 200px;
+ 
+}
+.portfolio img{
+    box-shadow: 10px 10px 40px grey;
+    height:150px;
+    padding:10px;
+    float:left;
+}
+
+.work-headline{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height:10%;
+}
+.client-header{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height:10%;
+    margin-bottom: 50px;
+}
+.client-details{
+    text-align: center;
+}
+.client-details p{
+    margin-top:-25px;
+    font-size: 10px;
+}
+.client-details .comment{
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    margin:25px 442px;
+}
+
+.contact-bar{
+    height:80px;
+    width:300px;
+    background-color: rgb(195, 7, 195);
+    text-align: center;
+    color:white;
+    padding:15px 50px;
+    border-radius: 10px;
+    margin:1px 340px
+}
+.contact-bar p{
+    color:white;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom:-10px;
+}
+.client-sec{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    text-align: center;
+}
